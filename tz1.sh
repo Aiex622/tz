@@ -4,10 +4,6 @@ if [ $# -ne 2 ]; then
   exit 1
 fi
 
-
-
-
-
 src_dir="$1"
 dst_dir="$2"
 if [ ! -d "$src_dir" ]; then
